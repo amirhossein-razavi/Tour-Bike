@@ -1,0 +1,18 @@
+.formResponsive{
+  display: flex
+}
+
+.inputResponse{
+  height: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width : 900px){
+  .formResponsive{
+    flex-direction: row;
+  }
+
+  .formResponsive input{
+    margin-top: 70px;
+  }
+}
